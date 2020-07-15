@@ -38,8 +38,12 @@
 					</nav>
 				</div>
 			</header>
-			<div class="bubbles-left desktop-visible"></div>
-			<div class="bubbles-right desktop-visible"></div>
+			<div class="parallax-wrap desktop-visible">
+				<div class="bubbles-left desktop-visible" data-parallax="scroll" data-image-src="img/bubbles-left.svg" data-position="top" data-speed="0.9" data-z-index="2" data-natural-width="217" data-natural-height="749" data-mirror-container=".parallax-wrap"></div>
+				<div class="bubbles-right desktop-visible" data-parallax="scroll" data-image-src="img/bubbles-right.svg" data-position="top" data-speed="0.9" data-z-index="2" data-natural-width="173" data-natural-height="745" data-mirror-container=".parallax-wrap"></div>
+			</div>
+			<!-- <div class="bubbles-left desktop-visible"></div>
+			<div class="bubbles-right desktop-visible"></div> -->
 			<div class="bubbles mobile-visible"></div>
 			<section class="main-block">
 				<div class="bg"></div>
@@ -114,7 +118,7 @@
 								<img src="img/perek-action-pic.png" alt="">
 							</div>
 							<div class="title coupon-title">Выигрывайте призы</div>
-							<div class="coupon-block-text">Покупайте новинки с картой Перекрёстка и выигрывайте призы:</div>
+							<div class="coupon-block-text">Покупайте новинки с 1 по 31 июля с картой Перекрёстка и выигрывайте призы:</div>
 							<div class="iphone-xr">три смартфона XR</div>
 							<div class="other-prizes">
 								<div class="other-prize"><span>10 подписок</span> <br>на ivi каждый <br>день</div>
@@ -390,6 +394,7 @@
 	<script src="js/TweenMax.min.js"></script>
     <script src="js/Draggable.min.js"></script>
     <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/parallax.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
