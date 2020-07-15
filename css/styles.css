@@ -660,6 +660,11 @@ footer {
     margin: 0 10px;
 }
 
+.shop.disabled {
+    pointer-events: none;
+    opacity: .6;
+}
+
 .shop:hover {
     transform: scale(1.05);
 }
