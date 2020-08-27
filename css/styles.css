@@ -1461,6 +1461,64 @@ table td {
     overflow: visible !important;
 }
 
+.new-action .popup__wrap {
+    background: none;
+    max-width: 425px;
+    padding: 0;
+}
+
+.new-action .close-popup {
+    top: 30px;
+    right: 15px;
+    z-index: 2;
+}
+
+.new-action .popup__inner {
+    position: relative;
+    max-width: 405px;
+    width: 100%;
+    height: 541px;
+    background: url(../img/new-action-popup.png) center no-repeat;
+    background-size: 405px;
+}
+
+.new-action .popup-btn-wrap {
+    position: absolute;
+    top: 456px;
+    left: 0;
+    right: 0;
+    max-width: 240px;
+    width: 100%;
+    margin: auto;
+}
+
+.popup-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 52px;
+    margin: auto;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: #FF4B4D;
+    color: #fff;
+    border-radius: 27px;
+    box-shadow: 3px 3px 0px #82150F;
+    z-index: 1;
+    transition: all .2s linear;
+}
+
+.popup-btn:hover {
+    background: #FF4B4D;
+    box-shadow: none !important;
+}
+
 @media (max-width: 1440px) {
     .balloon {
         right: 5%;
@@ -1842,5 +1900,9 @@ table td {
     .bubbles {
         top: 260px;
         background-size: 400px;
+    }
+
+    .new-action .popup__inner {
+        background-size: 380px;
     }
 }
